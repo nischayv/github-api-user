@@ -7,13 +7,18 @@ function getUser(username) {
     if (typeof username !== 'string') {
         return Promise.reject(new Error('username required'));
     }
-    const url = 'https://www.github.com/' + username;
+    const url = 'https://api.github.com/users/' + username;
 
     return got(url)
         .then(res => {
 
             return {
-
+                name: res.name,
+                company: res.company,
+                location: res.location,
+                email: res.email,
+                bio: res.bio,
+                avatar_url: res.avatar_url
             };
         })
         .catch(err => {
@@ -24,3 +29,5 @@ function getUser(username) {
             throw err;
         });
 }
+
+module.exports = getUser;
