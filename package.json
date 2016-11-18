@@ -2,9 +2,11 @@
   "name": "github-api-user",
   "version": "0.1.0",
   "description": "A simple wrapper for Github API",
-  "main": "index.js",
+  "main": "./distribution/index.js",
   "scripts": {
-    "test": "npm test"
+    "build": "babel src --presets babel-preset-es2015 --out-dir distribution",
+    "test": "npm test",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/nischayv/github-api-user/issues"
   },
-  "homepage": "https://github.com/nischayv/github-api-user#readme"
+  "homepage": "https://github.com/nischayv/github-api-user#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "dependencies": {
+    "got": "^6.6.3",
+    "pinkie-promise": "^2.0.1"
+  }
 }
