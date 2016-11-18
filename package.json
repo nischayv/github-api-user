@@ -1,0 +1,19 @@
+{
+  "name": "github-api-user",
+  "version": "1.0.0",
+  "description": "A simple wrapper for Github API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nischayv/github-api-user.git"
+  },
+  "author": "Nischay Venkatram <nischay.v@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nischayv/github-api-user/issues"
+  },
+  "homepage": "https://github.com/nischayv/github-api-user#readme"
+}
