@@ -9,6 +9,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+#Yarn stuff
+.yarnclean
+
 # Dependency directories
 node_modules
 jspm_packages
