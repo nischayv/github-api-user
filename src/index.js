@@ -11,7 +11,6 @@ function getUser(username) {
 
     return got(url)
         .then(res => {
-
             return {
                 name: res.name,
                 company: res.company,
@@ -23,7 +22,7 @@ function getUser(username) {
         })
         .catch(err => {
             if (err.statusCode === 404) {
-                err.message = 'User doesn\'t exist';
+                err.message = `User doesn't exist`;
             }
 
             throw err;
