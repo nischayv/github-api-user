@@ -17,5 +17,8 @@ node_modules
 jspm_packages
 distribution
 
+# Intellij Dependencies
+.idea
+
 # Optional npm cache directory
 .npm
