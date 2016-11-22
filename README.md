@@ -5,7 +5,7 @@ A simple wrapper for Github API
 
 ## Install
 
-Using npm
+Using NPM
 
 `npm install --save github-api-user`
 
