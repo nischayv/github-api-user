@@ -15,7 +15,6 @@ coverage
 # Dependency directories
 node_modules
 jspm_packages
-distribution
 
 # Intellij Dependencies
 .idea

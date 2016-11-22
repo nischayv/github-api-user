@@ -1,15 +1,18 @@
 'use strict';
 
-import got from 'got';
-import Promise from 'pinkie-promise';
+const Promise = require('pinkie-promise');
+const got = require('got');
 
-function getUser(username) {
+module.exports = function getUser(username) {
     if (typeof username !== 'string') {
         return Promise.reject(new Error('username required'));
     }
     const url = 'https://api.github.com/users/' + username;
 
     return got(url)
+        .then(res => {
+            return JSON.parse(res.body);
+        })
         .then(res => {
             return {
                 name: res.name,
@@ -27,6 +30,4 @@ function getUser(username) {
 
             throw err;
         });
-}
-
-module.exports = getUser;
+};
