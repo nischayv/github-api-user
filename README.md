@@ -20,7 +20,7 @@ githubUser('nischayv').then(user => {
         company: 'Student',
         location: 'Ames, IA'
         email: 'nischay.v@gmail.com',
-        bio: 'Tect Enthusiast and Dreamer',
+        bio: 'Tech Enthusiast and Dreamer',
         avatar_url: 'https://avatars.githubusercontent.com/u/13353147?v=3'
     }
     */
