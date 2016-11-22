@@ -36,4 +36,4 @@ githubUser('nischayv').then(user => {
 
 ## License
 
-MIT © [Nischay Venkatram] (https://github.com/nischayv)
+[MIT License] (https://github.com/nischayv/github-api-user/blob/master/LICENSE)
