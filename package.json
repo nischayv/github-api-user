@@ -6,6 +6,13 @@
   "scripts": {
     "test": "ava"
   },
+  "keywords": [
+    "github",
+    "api",
+    "user",
+    "info",
+    "profile"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nischayv/github-api-user.git"
