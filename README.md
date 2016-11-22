@@ -12,4 +12,4 @@ A simple wrapper for Github API
 
 ## License
 
-MIT &Copy Nischay Venkatram
+MIT © [Nischay Venkatram] (https://github.com/nischayv)
