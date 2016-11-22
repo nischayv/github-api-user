@@ -5,7 +5,13 @@ A simple wrapper for Github API
 
 ## Install
 
+Using npm
+
 `npm install --save github-api-user`
+
+Using Yarn
+
+`yarn add github-api-user`
 
 ## Usage
 
