@@ -1,17 +1,21 @@
 # github-api-user
 [![Build Status](https://travis-ci.org/nischayv/github-api-user.svg?branch=master)](https://travis-ci.org/nischayv/github-api-user)
 
-A simple wrapper for Github API
+> Get user info of Github user
+
+A simple wrapper for Github API. Gets the basic info of a github user without all the unnecessary stuff.
 
 ## Install
 
 Using NPM
-
-`npm install --save github-api-user`
+```
+npm install --save github-api-user
+```
 
 Using Yarn
-
+```
 `yarn add github-api-user`
+```
 
 ## Usage
 
