@@ -5,10 +5,28 @@ A simple wrapper for Github API
 
 ## Install
 
-`npm install -S github-api-user`
+`npm install --save github-api-user`
 
 ## Usage
 
+```javascript
+const githubUser = require('github-api-user');
+
+githubUser('nischayv').then(user => {
+    console.log(user);
+    /*
+    {
+        name: 'Nischay Venkatram',
+        company: 'Student',
+        location: 'Ames, IA'
+        email: 'nischay.v@gmail.com',
+        bio: 'Tect Enthusiast and Dreamer',
+        avatar_url: 'https://avatars.githubusercontent.com/u/13353147?v=3'
+    }
+    */
+});
+
+```
 
 ## License
 
