@@ -1,9 +1,8 @@
 import test from 'ava';
 import fn from './index';
 
-test(async t => {
+test('should get the github user', async t => {
     const user = await fn('nischayv');
-    console.log(user);
     t.is(user.name, 'Nischay Venkatram');
     t.is(user.email, null);
     t.is(user.bio, 'Tech Enthusiast and Dreamer');
